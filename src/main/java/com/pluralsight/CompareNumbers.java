@@ -11,6 +11,8 @@ public class CompareNumbers {
 
         System.out.println(isEven(number));
         System.out.println(isPositive(number));
+
+        numberInput.close();
     }
     public static int isEven(int number){
         return number % 2;
